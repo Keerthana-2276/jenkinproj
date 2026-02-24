@@ -8,8 +8,10 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        System.out.println("Hello page requested");   // ✅ Added line
+        System.out.println("Hello page requested"); 
+          // ✅ Added line
 
+        System.out.println("Hello page2 is requested"); 
         return "index";   // returns index.html
     }
 }
