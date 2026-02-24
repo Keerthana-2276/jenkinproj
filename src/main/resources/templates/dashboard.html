@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<h2>Student Details</h2>
+
+<div class="card">
+    <p><strong>Name:</strong> Keerthana</p>
+    <p><strong>Register No:</strong> 12345</p>
+    <p><strong>Department:</strong> CSE</p>
+    <p><strong>Year:</strong> 3rd Year</p>
+</div>
+
+<hr>
+
+<h2>Add New Subject</h2>
+
+<input type="text" id="subject" placeholder="Enter Subject">
+<input type="number" id="marks" placeholder="Enter Marks">
+<button onclick="addData()">Submit</button>
+
+<hr>
+
+<h2>Submitted Details</h2>
+
+<table border="1" id="dataTable" style="margin: auto;">
+    <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+    </tr>
+</table>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
